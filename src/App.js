@@ -1,6 +1,6 @@
 import Sidebar from "./components/Sidebar";
 import Content from "./components/Content";
-import Footer from "./components/Footer";
+import BottomBar from "./components/BottomBar";
 import { BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
          <Sidebar />
          <Content />
       </div>
-       <Footer />
+       <BottomBar />
     </Router>
   );
 }

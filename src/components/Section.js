@@ -35,7 +35,7 @@ function Section({title, more = false, items}) {
                   className="bg-footer ease-in duration-200 hover:bg-active p-4 rounded relative group"
                >
                   <img className={`mb-8 w-40 h-40 mx-auto object-cover ${imageStyle(item)}`}src={item.image} alt="image"/>
-                  <button className=" items-center justify-center w-10 h-10 rounded-full bg-primary absolute top-[8rem] right-[2rem] duration-200	 hover:h-12 hover:w-12 hidden group-hover:flex group-focus:flex">
+                  <button className=" items-center justify-center w-10 h-10 rounded-full bg-primary absolute top-[8rem] right-[2rem] duration-200 hover:scale-[1.2] hidden group-hover:flex group-focus:flex">
                         <Icon name="play" />
                   </button>
                   <h6 className="line-clamp-1">{ item.title }</h6>
